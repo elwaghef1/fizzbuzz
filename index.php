@@ -107,7 +107,6 @@ class FizzBuzzManager {
 // Instantiate the rules and the manager
 $rules = [new FizzBuzzRule(), new FizzRule(), new BuzzRule()];
 
-var_dump($rules);
 $fizzBuzz = new FizzBuzzManager($rules);
 $output = $fizzBuzz->generateOutput(100);
 
